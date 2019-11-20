@@ -30,8 +30,8 @@ public class Main {
 	        panel.setLayout(new GridLayout());
 	        frame.add(panel);
 	        
-		GraphFile Nodes = new GraphFile("C:\\Users\\Pichau\\OneDrive\\Documentos\\CIDADES.txt");
-		GraphFile Edges = new GraphFile("C:\\Users\\Pichau\\OneDrive\\Documentos\\Arestas.txt");
+		GraphFile Nodes = new GraphFile("C:\\Users\\Eduar\\Desktop\\PROJETO AED\\GraphsAED\\CIDADES.txt");
+		GraphFile Edges = new GraphFile("C:\\Users\\Eduar\\Desktop\\PROJETO AED\\GraphsAED\\Arestas.txt");
 		
 		Nodes.setArquivo();
 		Nodes.setListaNode();
